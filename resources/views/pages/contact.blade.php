@@ -9,7 +9,7 @@
                     <div class="col-xl-6 mb-30">
                         <div class="vl-maps">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.04421055503!2d-118.74139674995793!3d34.020608447020685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1734253501055!5m2!1sen!2sbd"
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9615.943096339428!2d13.132533894461911!3d11.79691103312506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSantilmari%20Beside%20Wisdom%20Chapel%20Church%2C%20Polo%2C%20Maiduguri%2C%20Borno%20State%20Nigeria!5e1!3m2!1sen!2sng!4v1775410807898!5m2!1sen!2sng"
                                 allowfullscreen=""
                                 class="vl-contact-maps"
                             ></iframe>
@@ -26,7 +26,7 @@
                                     We’re here to answer questions, provide
                                     information about our <br />
                                     work, and help you find ways to get involved
-                                    whetherinterested.
+                                    whether interested.
                                 </p>
                             </div>
 
@@ -46,43 +46,17 @@
                                                 placeholder="Last Name*"
                                             />
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-12">
                                             <input
                                                 type="email"
                                                 placeholder="Email Address*"
                                             />
                                         </div>
-                                        <div class="col-lg-6">
-                                            <input
-                                                type="number"
-                                                placeholder="Amount; $*"
-                                            />
-                                        </div>
                                         <div class="col-lg-12">
-                                            <select
-                                                class="nice-select wide vl-select"
-                                            >
-                                                <option
-                                                    data-display="Donation To"
-                                                >
-                                                    Nothing
-                                                </option>
-                                                <option value="1">
-                                                    Health and Medical Support
-                                                </option>
-                                                <option value="2">
-                                                    Education and Training
-                                                </option>
-                                                <option value="3">
-                                                    Relief and Aid Services
-                                                </option>
-                                                <option value="4">
-                                                    Community Development
-                                                </option>
-                                                <option value="5">
-                                                    Environmental Conservation
-                                                </option>
-                                            </select>
+                                            <input
+                                                type="tel"
+                                                placeholder="Phone Number*"
+                                            />
                                         </div>
                                         <div class="col-lg-12">
                                             <textarea
@@ -134,12 +108,12 @@
                                 </div>
                             </div>
                             <div class="contact-number">
-                                <a href="tel:+00123456789" class="para"
-                                    >+00 123 456 789
+                                <a href="tel:{{config('contact.phones.general')}}" class="para"
+                                    >{{config('contact.phones.general')}}</a
                                 </a>
                                 <br class="d-none d-lg-block" />
-                                <a href="tel:+00987654321" class="para"
-                                    >+00 987 654 321</a
+                                <a href="tel:{{config('contact.phones.general_2')}}" class="para"
+                                    >{{config('contact.phones.general_2')}}</a
                                 >
                             </div>
                         </div>
@@ -161,14 +135,14 @@
                                 </div>
                             </div>
                             <div class="contact-number">
-                                <a href="mailto:info@charity.com" class="para"
-                                    >info@charity.com</a
+                                <a href="mailto:{{config('contact.emails.general')}}" class="para"
+                                    >{{config('contact.emails.general')}}</a
                                 >
                                 <br class="d-none d-lg-block" />
                                 <a
-                                    href="mailto:Infocharity@gmail.com"
+                                    href="mailto:{{config('contact.emails.support')}}"
                                     class="para"
-                                    >Infocharity@gmail.com</a
+                                    >{{config('contact.emails.support')}}</a
                                 >
                             </div>
                         </div>
@@ -192,9 +166,7 @@
                             </div>
                             <div class="contact-number">
                                 <a href="#" class="para"
-                                    >8708 Technology Forest Pl Suite
-                                    <br class="d-none d-lg-block" />
-                                    125 -G, The Woodlands, TX 77381
+                                    >{{config('contact.address')}}
                                 </a>
                             </div>
                         </div>
@@ -203,65 +175,4 @@
             </div>
         </section>
         <!--===== Icon AREA ENDS =======-->
-
-        <!--===== CTA AREA STARTS =======-->
-        <section class="vl-cta">
-            <div class="container">
-                <div
-                    class="vl-cta-bg"
-                    style="
-                        background-image: url(./assets/img/cta/vl-cta-1.1.png);
-                    "
-                >
-                    <div class="vl-cta-shap dot-shap">
-                        <img
-                            src="assets/img/shape/vl-arow-shap-1.1.png"
-                            alt=""
-                        />
-                    </div>
-                    <div class="vl-cta-shap shap-1">
-                        <img src="assets/img/shape/vl-cta-1.1.png" alt="" />
-                    </div>
-                    <div class="vl-cta-shap shap-2">
-                        <img src="assets/img/shape/vl-cta-1.2.png" alt="" />
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="vl-cta-content text-center">
-                                <h2 class="title">
-                                    Your Help Can Change Lives
-                                </h2>
-                                <p>
-                                    Every action, no matter how small, can make
-                                    a world of difference in
-                                    <br class="d-none d-lg-block" />
-                                    the lives of those affected by disaster.
-                                    Whether it’s a donation.
-                                </p>
-
-                                <div class="vl-cta-form text-center mx-auto">
-                                    <form action="#">
-                                        <input
-                                            type="email"
-                                            placeholder="Enter Your Email.."
-                                        />
-                                        <div class="btn-area vl-cta-btn1">
-                                            <button class="header-btn1">
-                                                Subscribe
-                                                <span
-                                                    ><i
-                                                        class="fa-solid fa-arrow-right"
-                                                    ></i
-                                                ></span>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--===== CTA AREA ENDS =======-->
     @endsection

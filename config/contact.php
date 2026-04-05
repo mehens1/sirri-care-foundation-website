@@ -13,14 +13,15 @@ return [
         'sales'   => 'sales@sirrcare.org',
     ],
     'phones'   => [
-        'general' => '+234 812 413 8632',
+        'general' => '+2347017372064',
+        'general_2' => '+2349039718846',
     ],
-    'address' => 'House No. 345 Domboo Road, Maiduguri, Borno State, Nigeria',
+    'address' => 'Santilmari Beside Wisdom Chapel Church, Polo, Maiduguri, Borno State Nigeria',
 
     'socials' => [
-        'facebook' => '#',
+        'facebook' => 'https://web.facebook.com/profile.php?id=100077612919961',
         'instagram' => '#',
-        'linkedin' => '#',
+        'linkedin' => 'https://www.linkedin.com/company/sirri-care/',
         'twitter' => '#',
     ]
 ];
