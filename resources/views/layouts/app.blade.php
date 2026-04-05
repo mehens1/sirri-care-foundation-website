@@ -166,7 +166,7 @@
 
          @if (!request()->routeIs('home'))
         
-         <section class="vl-breadcrumb" style="background-image: url('@yield('breadcrumb_image', asset('assets/img/banner/vl-banner-1.1.png'))');">
+         <section class="vl-breadcrumb" style="background-image: url('@yield('breadcrumb_image', asset('assets/img/image48.JPG'))');">
            
                 {{-- <div class="shape1">
                     <img style="object-fit: cover;"
