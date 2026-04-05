@@ -7,12 +7,12 @@
     <div class="vl-banner p-relative fix">
         <div class="slider-active-1">
             <!-- single slider -->
-            <div class="vl-hero-slider vl-hero-bg" style="background-image: url(./assets/img/banner/vl-banner-1.1.png);">
+            <div class="vl-hero-slider vl-hero-bg" style="background-image: url(./assets/img/image51.JPG);">
                 <div class="vl-hero-shape shape-1">
-                    <img src="assets/img/shape/vl-hero-shape-1.1.png" alt="">
+                    <img src="{{asset('assets/img/shape/vl-hero-shape-1.1.png')}}" alt="">
                 </div>
                 <div class="vl-hero-shape shape-2">
-                    <img src="assets/img/shape/vl-hero-shape-1.2.png" alt="">
+                    <img src="{{asset('assets/img/shape/vl-hero-shape-1.2.png')}}" alt="">
                 </div>
 
                 <div class="vl-hero-social d-none d-lg-block">
@@ -44,12 +44,12 @@
             </div>
 
             <!-- single slider -->
-            <div class="vl-hero-slider vl-hero-bg" style="background-image: url(./assets/img/banner/vl-banner-1.1.png);">
+            <div class="vl-hero-slider vl-hero-bg" style="background-image: url(./assets/img/image79.JPG);">
                 <div class="vl-hero-shape shape-1">
-                    <img src="assets/img/shape/vl-hero-shape-1.1.png" alt="">
+                    <img src="{{asset('assets/img/shape/vl-hero-shape-1.1.png')}}" alt="">
                 </div>
                 <div class="vl-hero-shape shape-2">
-                    <img src="assets/img/shape/vl-hero-shape-1.2.png" alt="">
+                    <img src="{{asset('assets/img/shape/vl-hero-shape-1.2.png')}}" alt="">
                 </div>
 
                 <div class="vl-hero-social d-none d-lg-block">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6 mb-30">
-                    <img class="w-100" src="{{asset('assets/img/about/vl-about-1.1.png')}}" alt="">
+                    <img class="w-100" src="{{asset('assets/img/image5.jpg')}}" alt="">
                     {{-- <div class="vl-about-large-thumb reveal">
                     </div> --}}
                 </div>
@@ -154,7 +154,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="{{asset('assets/img/cause/vl-cause-1.1.png')}}" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image38.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
                                 <a href="/donate" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
@@ -170,7 +170,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="assets/img/cause/vl-cause-1.2.png" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image45.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
                                 <a href="/" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
@@ -186,7 +186,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-left" data-aos-duration="700" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="assets/img/cause/vl-cause-1.3.png" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image47.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
                                 <a href="cause-single.html" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
@@ -200,13 +200,10 @@
                     </div>
                 </div>
 
-
-
-
                 <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="{{asset('assets/img/cause/vl-cause-1.1.png')}}" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image70.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
                                 <a href="/donate" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
@@ -222,7 +219,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="assets/img/cause/vl-cause-1.2.png" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image36.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
                                 <a href="/" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
@@ -238,9 +235,9 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-left" data-aos-duration="700" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="assets/img/cause/vl-cause-1.3.png" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image79.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
-                                <a href="cause-single.html" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                                <a href="#" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
                         <div class="vl-cause-content">
@@ -252,13 +249,10 @@
                     </div>
                 </div>
 
-
-
-
                  <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="{{asset('assets/img/cause/vl-cause-1.1.png')}}" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image86.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
                                 <a href="/donate" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
@@ -274,7 +268,7 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="vl-single-cause-box mb-30" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="vl-cause-thumb">
-                            <img class="w-100" src="assets/img/cause/vl-cause-1.2.png" alt="">
+                            <img class="w-100" src="{{asset('assets/img/image87.JPG')}}" alt="">
                             <div class="btn-area casue-btn text-center">
                                 <a href="/" class="header-btn1">Donation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
@@ -294,7 +288,7 @@
     <!--===== CTA AREA STARTS =======-->
     <section class="vl-cta">
         <div class="container">
-            <div class="vl-cta-bg" style="background-image: url(./assets/img/cta/vl-cta-1.1.png);">
+            <div class="vl-cta-bg" style="background-image: url(./assets/img/image38.JPG);">
                 <div class="vl-cta-shap dot-shap">
                     <img src="assets/img/shape/vl-arow-shap-1.1.png" alt="">
                 </div>
